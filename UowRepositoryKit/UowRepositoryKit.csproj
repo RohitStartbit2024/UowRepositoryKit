@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+	  <!-- NuGet packaging -->
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <PackageId>UowRepositoryKit</PackageId>
+	  <Version>1.0.0</Version>
+	  <Authors>Rohit Agarwal</Authors>
+	  <Company>Startbit It Solutions</Company>
+	  <Description>Lightweight Unit-of-Work and Repository kit for EF Core 9.</Description>
+	  <RepositoryUrl>https://github.com/RohitStartbit2024/UowRepositoryKit</RepositoryUrl>
+  </PropertyGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.0" />
+	</ItemGroup>
+	
+</Project>
