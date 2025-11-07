@@ -33,6 +33,7 @@ namespace SampleUseDemo.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] Student model)
         {
+            model.Id = 0; // Ensure Id is not set for new entities to allow identity column to generate it
             await _uow.Repository<Student>().AddAsync(model);
             await _uow.SaveChangesAsync();
             return Ok(model);
