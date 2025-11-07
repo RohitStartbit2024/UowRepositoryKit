@@ -5,3 +5,12 @@
 /.vs
 /UowRepositoryKit/bin/Debug
 /UowRepositoryKit/obj
+/SampleUseDemo/SampleUseDemo/.vs
+/SampleUseDemo/SampleUseDemo/SampleUseDemo/.vs
+/SampleUseDemo/SampleUseDemo/SampleUseDemo/bin/Debug/net9.0
+/SampleUseDemo/SampleUseDemo/SampleUseDemo/Migrations
+/SampleUseDemo/SampleUseDemo/SampleUseDemo/obj
+/SampleUseDemo/SampleUseDemo/SampleUseDemo/Properties
+/UowRepositoryKit/.vs
+/UowRepositoryKit/UowRepositoryKit/bin/Debug
+/UowRepositoryKit/UowRepositoryKit/obj

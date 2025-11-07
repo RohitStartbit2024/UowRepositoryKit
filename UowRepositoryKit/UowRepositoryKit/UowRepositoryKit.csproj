@@ -5,7 +5,7 @@
 	  <!-- NuGet packaging -->
 	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	  <PackageId>UowRepositoryKit</PackageId>
-	  <Version>1.0.0</Version>
+	  <Version>1.0.1</Version>
 	  <Authors>Rohit Agarwal</Authors>
 	  <Company>Startbit It Solutions</Company>
 	  <Description>Lightweight Unit-of-Work and Repository kit for EF Core 9.</Description>
